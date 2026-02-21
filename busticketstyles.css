@@ -1,0 +1,129 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'ariel', sans-serif;
+    background-color: #FFECDB;
+    color: #b52816ad;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #AFDDFF;
+    padding: 15px 30px;
+}
+
+header .logo h2 {
+    color: #60B5FF;
+    font-size: 3rem;
+    font-family: 'Gravitas One';
+    font-style: normal; /* If you want to keep it regular, not italic */
+}
+
+
+
+nav.navigation a {
+    color: rgb(87, 153, 197);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav.navigation a:hover {
+    color: #fe1900;
+}
+
+/* Login Section */
+.login-section {
+    width: 700%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgb(194, 226, 251);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Form Styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #e74c3c;
+    outline: none;
+}
+
+/* Submit Button */
+.submit-button {
+    text-align: center;
+}
+
+.submit-button button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button button:hover {
+    background-color: #c0392b;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #777;
+}
+
+footer a {
+    color: #34495e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #e74c3c;
+}

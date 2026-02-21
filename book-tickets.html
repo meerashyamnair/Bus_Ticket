@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Ticket</title>
+    <link rel="stylesheet" href="bookticketsstyles.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Book Your Bus Ticket</h1>
+    </header>
+
+    <section class="main-section">
+        <div class="ticket-form">
+            <form>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter destination" required>
+
+                <label for="date">Travel Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="passengers">Number of Passengers:</label>
+                <input type="number" id="passengers" name="passengers" min="1" required>
+
+                <button type="submit" class="btn">Book Ticket</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
